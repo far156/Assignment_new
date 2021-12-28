@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind cdn link -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!-- another link -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!-- font awesome cdn -->
+
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<!-- footer link -->
+<link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+</head>
+<body>
+  
+  
+ 
+     <!-- header start nav -->
+     <section>
+        <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+            <div class="flex items-center flex-shrink-0 text-white mr-6">
+              
+            
+            </div>
+            <div class="block lg:hidden">
+              <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+              </button>
+            </div>
+            <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+              <div class="text-sm lg:flex-grow">
+                
+                
+                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 Text-white">
+                  Tayeba Jewellery
+                </a>
+                
+                <a href="#responsive-header" class="block mr-4 lg:inline-block lg:mt-0 text-teal-200 Text-white float-right">
+                    Home
+                  </a>
+
+                <a href="#responsive-header" class="block mr-10 lg:inline-block lg:mt-0 text-teal-200 Text-white float-right">
+                  Explore
+                </a>
+              </div>
+              <div>
+                <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0 "><i class="fas fa-sign-in-alt pr-2"></i>Log in</a>
+              </div>
+            </div>
+          </nav>
+    </section>
+    <!-- header end -->
+    <!-- banner section start -->
+    <section>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      * {box-sizing: border-box}
+      body {font-family: Verdana, sans-serif; margin:0}
+      .mySlides {display: none}
+      img {vertical-align: middle;}
+      
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+      
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+      }
+      
+      /* Caption text */
+      .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+      
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .prev, .next,.text {font-size: 11px}
+      }
+      </style>
+      </head>
+      <body>
+      
+      <div class="slideshow-container">
+      
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        
+        <img class src="./img/img_lights_wide.jpg" style="width:100%">
+        
+        <div class="text">Caption Text</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="./img/img_mountains_wide.jpg" style="width:100%">
+        
+        <div class="text">Caption Two</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="./img/img_nature_wide.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+      
+      <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+      
+      </body>
+      </html> 
+      
+    </section>
+    <!-- banner section end -->
+    <!-- weeding ring start -->
+    <section class="py-12">
+        <h1 class="text-4xl font-bold  text-black text-center">Wedding Rings!</h1>
+        <div class="grid gap-4 grid-cols-3 px-40 pt-20">
+
+<!-- card 1 -->
+            <div class="shadow-lg rounded p-8 hover:shadow-2xl">
+                <div class="flex justify-center">
+                <img  
+                class="object-cover h-52 w-52" src="https://i.ibb.co/rtRWsND/ring-2.jpg" alt="">
+              </div>
+      
+              <h2 class="text-2xl py-2 font-bold text-center">Diamond Ring</h2>
+              <h3 class="text-2xl text-red-500 text-center">194000৳</h3>
+              <p class="text-center">Natural Red Garnet Gemstone Rings For Women 925 Sterling Silver Wedding Rings Fine Jewelry Gifts Vintage Ruby Red Stone SR52</p>
+              <div class="flex justify-center">
+                <button class="
+                text-white
+                 bg-gray-700
+                  rounded-full
+                   p-2
+                    px-4
+                     my-4
+                      hover:bg-gray-800 " >Buy Now</button>
+      
+              </div>
+              </div>
+              <!-- card-2 -->
+              <div class="shadow-lg rounded p-8 hover:shadow-2xl">
+                <div class="flex justify-center">
+                <img  
+                class="object-cover h-52 w-52" src="https://i.ibb.co/WxqdjNh/ring-3.jpg" alt="">
+              </div>
+      
+              <h2 class="text-2xl py-2 font-bold text-center">Extra Large Bamboo</h2>
+              <h3 class="text-2xl text-red-500 text-center">123600৳</h3>
+              <p class="text-center">ORSA JEWELS Luxury Big 5ct DE VVS Moissanite Ring for Women Brilliant Round Cut Gem Stone for Proposal Engagement Wedding SMR52</p>
+              <div class="flex justify-center">
+                <button class="
+                text-white
+                 bg-gray-700
+                  rounded-full
+                   p-2
+                    px-4
+                     my-4
+                      hover:bg-gray-800 " >Buy Now</button>
+      
+              </div>
+              </div>
+              <!-- card-3 -->
+              <div class="shadow-lg rounded p-8 hover:shadow-2xl">
+                <div class="flex justify-center">
+                <img  
+                class="object-cover h-52 w-52" src="https://i.ibb.co/Kbnkwjw/ring-4.jpg" alt="">
+              </div>
+      
+              <h2 class="text-2xl py-2 font-bold text-center">Lapis Hoop Earrings</h2>
+              <h3 class="text-2xl text-red-500 text-center">17680৳</h3>
+              <p class="text-center">2021 Modern Fashion Women Ring Trend White AAA Crystal Zircon Engagement Design Rings for Women Wedding Jewelry Gift</p>
+              <div class="flex justify-center">
+                <button class="
+                text-white
+                 bg-gray-700
+                  rounded-full
+                   p-2
+                    px-4
+                     my-4
+                      hover:bg-gray-800 " >Buy Now</button>
+      
+              </div>
+              </div>
+              <!-- card 4 -->
+              <div class="shadow-lg rounded p-8 hover:shadow-2xl">
+                <div class="flex justify-center">
+                <img  
+                class="object-cover h-52 w-52" src="https://i.ibb.co/k6yWRWk/ring-5.jpg" alt="">
+              </div>
+      
+              <h2 class="text-2xl py-2 font-bold text-center">Pear-Shaped Black</h2>
+              <h3 class="text-2xl text-red-500 text-center">123400৳</h3>
+              <p class="text-center">Lord Voldemort Horcrux Ring The Resurrection Stone Marvolo Gaunt Vintage Deathly Hallows Dumbledore Crystal Woman And Men</p>
+              <div class="flex justify-center">
+                <button class="
+                text-white
+                 bg-gray-700
+                  rounded-full
+                   p-2
+                    px-4
+                     my-4
+                      hover:bg-gray-800 " >Buy Now</button>
+      
+              </div>
+              </div>
+              <!-- card-5 -->
+              <div class="shadow-lg rounded p-8 hover:shadow-2xl">
+                <div class="flex justify-center">
+                <img  
+                class="object-cover h-52 w-52" src="https://i.ibb.co/XFqHYQ6/ring-6.jpg" alt="">
+              </div>
+      
+              <h2 class="text-2xl py-2 font-bold text-center">Rose Gold Panther</h2>
+              <h3 class="text-2xl text-red-500 text-center">128000৳</h3>
+              <p class="text-center">AOLOSHOW Luxury Princess Leaf Engagement Ring for Women Girl white Stone Copper Material Wedding Zircon Ring Collier Femme RN015</p>
+              <div class="flex justify-center">
+                <button class="
+                text-white
+                 bg-gray-700
+                  rounded-full
+                   p-2
+                    px-4
+                     my-4
+                      hover:bg-gray-800 " >Buy Now</button>
+      
+              </div>
+              </div>
+              <!-- card-6 -->
+              <div class="shadow-lg rounded p-8 hover:shadow-2xl">
+                <div class="flex justify-center">
+                <img  
+                class="object-cover h-52 w-52" src="https://i.ibb.co/ysT5G40/ring-7.jpg" alt="">
+              </div>
+      
+              <h2 class="text-2xl py-2 font-bold text-center">EarSterling Silver Bead</h2>
+              <h3 class="text-2xl text-red-500 text-center">180090৳</h3>
+              <p class="text-center">DODO Luxury Full AAA Zircon Rings For Women Silver Color Band Rings Jewelry Promise Wedding Anel Statement Anillos Wholesale</p>
+              <div class="flex justify-center">
+                <button class="
+                text-white
+                 bg-gray-700
+                  rounded-full
+                   p-2
+                    px-4
+                     my-4
+                      hover:bg-gray-800 " >Buy Now</button>
+      
+              </div>
+              </div>
+        </div>
+    </section>
+    <!--customer review start  -->
+    <section>
+      <h1 class="text-4xl font-bold  text-black-600 text-center">Customer Reviews </h1>
+      <div class="px-12 bg-black-600">
+        
+        <div class="grid grid-cols-4 gap-4 p-12">
+          <!-- c1 -->
+          <div class="p-4 border-r-2 border-dashed border-black shadow-lg">
+           
+            <h5 class="text-center text-black font-semibold">Shakib Anis</h5>
+            <p>তাদের প্রোডাক্ট নিয়ে আমি পুরোপুরি সন্তুষ্ট! খুবই ভালো পরিসেবা। শুভকামনা রইলো</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas-fa-star "></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-adjust"></i>
+            <br>
+            <br>
+            <br>
+            <h5>Galaxy S5</h5>
+            <h6>gdfgfgfdgdfg</h6>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas-fa-star "></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-adjust"></i>
+
+            <h1 class="text-5xl font-bold text-white py-4">10M</h1>
+          </div>
+          <!-- c2 -->
+          <div class="p-4 border-r-2 border-dashed border-black shadow-lg">
+            <h5 class="text-center text-black font-semibold">Farzana</h5>
+            <p>গুণগত মান খুব ভালো,তবে পরিসেবাতে আরো উন্নয়ন প্রয়োজন</p>
+            <div>
+              <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas-fa-star "></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-adjust"></i>
+            </div>
+            <h1 class="text-5xl font-bold text-white py-4">320+</h1>
+            <h5>Jahid</h5>
+            <h6>Very good product</h6>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas-fa-star "></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <!-- c3 -->
+          <div class="p-4 border-r-2 border-dashed border-black shadow-lg">
+            <h5 class="text-center text-black font-semibold">Four Angle</h5>
+            <p>দারুণ! প্রোডাক্ট এর কোয়ালিটি শতভাগ পিউর৷ ধন্যবাদ।</p>
+            <i class="fas fa-star "></i>
+            <i class="fas fa-star"></i>
+            <i class="fas-fa-star "></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-adjust"></i>
+            <i class="fas fa-adjust"></i>
+            
+            <h1 class="text-5xl font-bold text-white py-4">40+</h1>
+          </div>
+          <!-- c4 -->
+          <div class="p-4">
+            <h5 class="text-center text-black font-semibold">arju</h5>
+            <p>তাদের প্রোডাক্ট নিয়ে আমি পুরোপুরি সন্তুষ্ট! খুবই ভালো পরিসেবা। শুভকামনা রইলো</p>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas-fa-star "></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-adjust"></i>
+            <h1 class="text-5xl font-bold text-white py-4">120K</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- review end -->
+    <!-- contact us -->
+    <section>
+     
+      <h1 class="text-4xl font-bold  text-black-600 text-center p-20 ">Contact Us </h1>
+      
+      <p class="text-2xl font-bold  text-gray-800">
+        We have Experience <br> Management Team!
+      </p>
+      <h1 class="text-6xl font-bold  text-black-600 " >Best Support!</h1>
+      <h5>Phone - 01789879345</h5>
+      <h5>E-mail - ecomsupport@tayba-jewellery.com</h5>
+      <button class="
+      text-white
+      
+       bg-gray-700
+        rectangle-full
+         p-2
+          px-4
+           my-4
+            hover:bg-gray-800 " >Learn More</button>
+            <img  class=" float-right py-20 pt-24"src="./img/contact.png" alt="">
+    </section>
+    <!-- footer start -->
+    <section>
+      <footer class="border-t border-gray-200">
+        <div
+          class="
+            container
+            flex flex-col flex-wrap
+            px-4
+            py-16
+            mx-auto
+            md:items-center
+            lg:items-start
+            md:flex-row md:flex-nowrap
+          "
+        >
+          <div
+            class="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left"
+          >
+            <a
+              class="
+                flex
+                items-center
+                justify-center
+                text-4xl
+                font-bold
+                text-blue-700
+                md:justify-start
+              "
+            >
+              
+            </a>
+            <p class="mt-2 text-sm text-gray-500">
+              Made with in Dhaka, Bangladesh. Tayeba Jewellery and the Tayeba Jewellery logo are trademarks of Tayeba Jewellery Ltd. © 2021 Tayeba Jewellery Ltd. All rights reserved.
+            </p>
+          </div>
+          <div class="justify-between w-full mt-4 text-center lg:flex">
+            <div class="w-full px-4 lg:w-1/3 md:w-1/2">
+              <!-- catagorie 1 -->
+              <h2 class="mb-2 font-bold tracking-widest text-gray-900">
+                CATEGORIES
+              </h2>
+              <ul class="mb-8 space-y-2 text-sm list-none">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                </li>
+              </ul>
+            </div>
+            <!-- catagorie 2 -->
+            <div class="w-full px-4 lg:w-1/3 md:w-1/2">
+              <h2 class="mb-2 font-bold tracking-widest text-gray-900">
+                CATEGORIES
+              </h2>
+              <ul class="mb-8 space-y-2 text-sm list-none">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                </li>
+              </ul>
+            </div>
+            <!-- catagorie 3 -->
+            <div class="w-full px-4 lg:w-1/3 md:w-1/2">
+              <h2 class="mb-2 font-bold tracking-widest text-gray-900">
+                CATEGORIES
+              </h2>
+              <ul class="mb-8 space-y-2 text-sm list-none">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                </li>
+              </ul>
+            </div>
+            <!-- catagorie 4 -->
+            <div class="w-full px-4 lg:w-1/3 md:w-1/2">
+              <h2 class="mb-2 font-bold tracking-widest text-gray-900">
+                CATEGORIES
+              </h2>
+              <ul class="mb-8 space-y-2 text-sm list-none">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+        <div class="  bg-black">
+          
+          <p class="text-base text-white">
+            © 2021 Copyright:Tayeba Jewellery
+          </p>
+
+          
+            <i class="fab fa-facebook text-white float-right p-2"></i>
+            <i class="fab fa-twitter text-white float-right p-2 "></i>
+            <i class="fab fa-linkedin-in text-white float-right p-2"></i>
+            <i class="fab fa-youtube text-white  float-right p-2"></i>
+            <i class="fab fa-instagram-square text-white  "></i>
+          
+        </div>
+      </footer>
+    </section>
+
+
+</body>
+</html>
